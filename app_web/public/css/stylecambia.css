@@ -1,0 +1,79 @@
+/* Reseteo de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo de la página */
+body {
+    background: linear-gradient(135deg, #fff176, #000000);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Estilo del contenedor principal */
+.form-container {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 235, 59, 0.5);
+    max-width: 450px;
+    width: 100%;
+    color: #fff;
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    margin-bottom: 1.8rem;
+    color: #ffeb3b;
+}
+
+h2 i {
+    color: #ffeb3b;
+}
+
+/* Estilo de los campos de entrada */
+.form-label {
+    color: #ffeb3b;
+}
+
+.form-control {
+    border-radius: 12px;
+}
+
+.input-group-text {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    border-radius: 12px 0 0 12px;
+}
+
+.input-group .form-control {
+    border-radius: 0 12px 12px 0;
+}
+
+/* Botón de enviar */
+button.btn-warning {
+    width: 100%;
+    border-radius: 12px;
+    background-color: #ffc107;
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.btn-warning:hover {
+    background-color: #ff9800;
+}
+
+/* Mensajes de error */
+.invalid-feedback {
+    color: red;
+    font-size: 14px;
+}
